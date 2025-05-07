@@ -136,7 +136,7 @@ nav.navbar ul a:hover {
 /* --- Header Image --- */
 
 div.caption {
-    background: var(--black) url("../imgs/NewImages/Caption Images/Home_06.jpg") no-repeat top right fixed;
+    background: var(--black) url("../imgs/NewImages/Caption-Images/Home_06.jpg") no-repeat top right fixed;
     background-size: cover;
     height: 800px;
     display: flex;
@@ -185,7 +185,7 @@ div.btn img {
 
 /* --- Page Divider --- */
 
-div.divider {
+div.divider, div.divider img {
     border: none;
     display: flex;
     flex-direction: row;
@@ -347,7 +347,7 @@ aside {
 /* --- Header Image --- */
 
 div.talent-caption {
-    background: var(--black) url("../imgs/NewImages/Caption Images/Talent_03.jpg") no-repeat top right fixed;
+    background: var(--black) url("../imgs/NewImages/Caption-Images/Talent_03.jpg") no-repeat top right fixed;
     background-size: cover;
     height: 800px;
     display: flex;
@@ -423,7 +423,7 @@ div.col figcaption {
 /* --- Course Page --- */
 
 div.courses-caption {
-    background: var(--black) url("../imgs/NewImages/Caption Images/Courses_02.jpg") no-repeat top right fixed;
+    background: var(--black) url("../imgs/NewImages/Caption-Images/Courses_02.jpg") no-repeat top right fixed;
     background-size: cover;
     height: 800px;
     display: flex;
@@ -485,7 +485,7 @@ img.require {
 /* --- recruitment --*/
 
 div.recruitment-caption {
-    background: var(--black) url("../imgs/NewImages/Caption Images/Recruitment_02.png") no-repeat top right fixed;
+    background: var(--black) url("../imgs/NewImages/Caption-Images/Recruitment_02.png") no-repeat top right fixed;
     background-size: cover;
     height: 800px;
     display: flex;
@@ -510,7 +510,7 @@ div.col-req h2 {
     max-width: 100%;
 }
 
-li.reason {
+div.col-req li {
     font-size: 2rem;
     text-decoration: none;
     list-style: none;
@@ -522,7 +522,7 @@ li.reason {
 /* --- Apply --- */
 
 div.apply-caption {
-    background: var(--black) url("../imgs/NewImages/Caption Images/Apply_03.jpg") no-repeat top right fixed;
+    background: var(--black) url("../imgs/NewImages/Caption-Images/Apply_03.jpg") no-repeat top right fixed;
     background-size: cover;
     height: 800px;
     display: flex;
@@ -602,7 +602,7 @@ input.send:hover {
 /* --- Contact Us --- */
 
 div.contact-caption {
-    background: var(--black) url("../imgs/NewImages/Caption Images/ContactUsNew.jpg") no-repeat top right fixed;
+    background: var(--black) url("../imgs/NewImages/Caption-Images/ContactUsNew.jpg") no-repeat top right fixed;
     background-size: cover;
     height: 800px;
     display: flex;
@@ -638,8 +638,9 @@ textarea.message {
 /* 2xl */
 @media (max-width: 1536px) {
 
-    div.divider img {
-        width: 1450px;
+    div.divider, div.divider img {
+        width: 100%;
+        max-width: 1436px;
     }
 
     /* Home Page */
@@ -716,8 +717,9 @@ textarea.message {
 
         /* Divider */
 
-        div.divider img {
-            width: 1200px;
+        div.divider, div.divider img {
+            width: 100%;
+            max-width: 1200px;
         }
 
         /* Home Page */
@@ -894,8 +896,9 @@ textarea.message {
 @media (max-width: 1024px) {
 
     /* Divider */
-    div.divider img {
-        width: 940px;
+    div.divider, div.divider img {
+        width: 100%;
+        max-width: 940px;
     }
 
     /* Home Page */
@@ -1098,8 +1101,9 @@ textarea.message {
 @media (max-width: 768px) {
 
         /* Divider */
-        div.divider img {
-            width: 680px;
+        div.divider, div.divider img {
+            width: 100%;
+            max-width: 680px;
         }
     
         /* Home Page */
@@ -1384,8 +1388,9 @@ textarea.message {
 @media (max-width: 640px) {
 
     /* Divider */
-    div.divider img {
-        width: 540px;
+    div.divider, div.divider img {
+        width: 100%;
+        max-width: 540px;
     }
 
     /* Home Page */
@@ -1532,7 +1537,7 @@ textarea.message {
      }
 
      a.prev, a.next, a.prev img, a.next img {
-        width: -3rem;
+        width: 3rem;
         height: 3rem;
         max-width: 100%;
         margin: -2rem -5rem;
@@ -1549,8 +1554,9 @@ textarea.message {
 @media (max-width: 475px) {
 
 /* Divider */
-div.divider img {
-    width: 385px;
+div.divider, div.divider img {
+    width: 100%;
+    max-width: 385px;
 }
 
 /* Home Page */
@@ -1653,7 +1659,7 @@ div.slideshow-container {
  }
 
  a.prev, a.next, a.prev img, a.next img {
-    width: -3rem;
+    width: 3rem;
     height: 3rem;
     max-width: 100%;
     margin: -2rem -4rem;
