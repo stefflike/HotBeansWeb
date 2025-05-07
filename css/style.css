@@ -144,7 +144,7 @@ div.caption {
     align-items: center;
 }
 
-div.caption p {
+div.caption h1 {
     font-size: 75pt;
     font-weight: normal;
     text-align: center;
