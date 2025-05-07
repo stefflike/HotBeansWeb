@@ -559,7 +559,7 @@ div.form form {
 
 form.size input {
     font-family: var(--font);
-    color: var(--grey);
+    color: var(--darkblue);
     font-size: 20pt;
     height: 3rem;
     max-height: 8rem;
