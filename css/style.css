@@ -1554,6 +1554,12 @@ textarea.message {
         padding: 0;
         margin: 0;
     }
+
+    div.numbertext p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 }
 
 /* xs */
@@ -1676,6 +1682,12 @@ div.numbertext img {
     padding: 0;
     margin: 0;
 }
+
+div.numbertext p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 
 div.recruitment-caption, div.recruitment-caption p {
     height: 250px;
