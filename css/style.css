@@ -422,6 +422,7 @@ div.col figcaption {
 }
 
 div.numbertext p {
+        background-color: yellow;
         display: none;
     }
 
