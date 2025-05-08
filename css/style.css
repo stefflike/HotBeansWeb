@@ -421,6 +421,10 @@ div.col figcaption {
   background-color: var(--blue)
 }
 
+div.numbertext p {
+        display: none;
+    }
+
 /* --- Course Page --- */
 
 div.courses-caption {
